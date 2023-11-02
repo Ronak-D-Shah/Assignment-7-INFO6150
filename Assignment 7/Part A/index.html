@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+  <div id="second-page">
+    <h1>Welcome, <span id="logged-username"></span>!</h1>
+    <div id="calculator-form">
+      <div class="form-group">
+        <label for="number1">Number 1</label>
+        <input type="text" id="number1" name="number1">
+        <span class="error" id="number1-error" style="color: red;"></span>
+      </div>
+      <div class="form-group">
+        <label for="number2">Number 2</label>
+        <input type="text" id="number2" name="number2">
+        <span class="error" id="number2-error" style="color: red;"></span>
+      </div>
+      <div class="result">
+        Result: <span id="result">-</span>
+      </div>
+      <div class="operations">
+        <button id="add-button" type="button">Add</button>
+        <button id="subtract-button" type="button">Subtract</button>
+        <button id="multiply-button" type="button">Multiply</button>
+        <button id="divide-button" type="button">Divide</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
